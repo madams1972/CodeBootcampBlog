@@ -1,11 +1,43 @@
-<article class='post'>
-  <div class='title'>
-    <a href='{{post_url}}' target='_blank'>{{title}}</a>
-    <span>({{format_url post_url}})</span>
+<h4>Post</h4>
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">{{title}}</h5>
+    <p class="card-description">{{description}}</p>
+    <span class="card-author">Created by {{user.name}} on
+      {{format_date createdAt}}</span>
+      {{#if userPost}}
+      <div class="cta" style="float: right; display: flex-block">
+        <a href="/api/post/update/{{id}}">
+          <button type="submit" class="btn btn-dark pageBtn" style="display: inline-block">
+            Edit Post
+          </button>
+        </a>
+          <button type="submit" class="btn btn-dark pageBtn" style="display: inline-block" id="dPost">
+            Delete Post
+          </button>
+      </div>
+    {{/if}}
   </div>
-  <div class="meta">
-  {{vote_count}} {{format_plural "point" vote_count}} by {{user.username}} on {{format_date created_at}}
-  |
-  <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+  
 </div>
-</article>
+<br>
+<h4>Comments</h4>
+{{#each comments}}
+  {{> commentDisplay}}
+{{/each}}
+<hr>
+{{#if logged_in}}
+  {{!-- <div class="container mt-5"> --}}
+  <div class="flex-row">
+    <textarea class="form-control textarea" id="comment-content" data-id={{id}}
+      placeholder="Leave a comment..."></textarea>
+  </div>
+  <div class="mt-2 text-right">
+    <button class="btn btn-danger btn-sm shadow-none" id="commentBtn" type="button">Submit</button>
+  </div>
+  {{!-- </div> --}}
+{{/if}}
+
+</div>
+<script src="/js/post.js"></script>
+<script src="/js/comment.js"></script>
