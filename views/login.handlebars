@@ -1,32 +1,35 @@
-<form class="login-form">
-  <div>
-    <label for="email-login">email:</label>
-    <input type="text" id="email-login" />
+<h6 style="color: rgba(255, 89, 89, 0.938)">Login to leve a comment on a post</h6>
+<hr>
+<form class="login-form" style="max-width: 375px">
+  <h4>Login</h4>
+
+  <div class="form-group">
+    <input type="email" class="form-control" id="email-login" placeholder="Enter email">
   </div>
-  <div>
-    <label for="password-login">password:</label>
-    <input type="text" id="password-login" />
+  <div class="form-group">
+    <input type="password" class="form-control" id="password-login" placeholder="Password">
   </div>
-  <div>
-    <button type="submit">login</button>
+    <div class="form-group">
+  <button type="submit" class="btn btn-danger">Login</button>
+  </div>
+</form>
+<br>
+<form class="signup-form" style="max-width: 375px">
+  <hr>
+  <h4>Signup</h4>
+
+  <div class="form-group">  
+    <input type="text" class="form-control" id="name-signup" placeholder="Enter name">
+  </div>
+  <div class="form-group">  
+    <input type="email" class="form-control" id="email-signup" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <input type="password" class="form-control" id="password-signup" placeholder="Enter password">
+  </div>
+  <div class="form-group">
+  <button type="submit" class="btn btn-danger">Sign Up</button>
   </div>
 </form>
 
-<form class="signup-form">
-  <div>
-    <label for="username-signup">username:</label>
-    <input type="text" id="username-signup" />
-  </div>
-  <div>
-    <label for="email-signup">email:</label>
-    <input type="text" id="email-signup" />
-  </div>
-  <div>
-    <label for="password-signup">password:</label>
-    <input type="text" id="password-signup" />
-  </div>
-  <div>
-    <button type="submit">signup</button>
-  </div>
-</form>
-<script src="/javascript/login.js"></script>
+<script src="./js/login.js"></script>
