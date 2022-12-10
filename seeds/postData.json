@@ -1,14 +1,14 @@
 [
   {
-    "title": "Why Should I lLearn to Code?",
-    "description": "There are many reasons why you might want to learn to code. For one, knowing how to code can open up a lot of career opportunities and allow you to work in a field that is growing rapidly. Additionally, learning to code can be a great way to solve problems and create useful tools and applications. It can also be a fulfilling hobby and a way to express yourself creatively. Furthermore, learning to code can help you understand how technology works and how to use it more effectively. Overall, learning to code can be a valuable and rewarding experience."
-  },
-  {
     "title": "What is Web 3.0?",
-    "description": "Web 3.0 is a term that is often used to refer to the next generation of the World Wide Web. It is not a specific technology or set of technologies, but rather a vision for how the web will evolve in the future. Some of the key features of Web 3.0 are expected to be an emphasis on semantic technologies, which will allow machines to better understand the meaning of web content, and an increase in the use of artificial intelligence and machine learning to enhance the web browsing experience. Overall, Web 3.0 is expected to be more intelligent, intuitive, and personalized than previous versions of the web."
+    "description": "Web 3.0, also known as the Semantic Web, is a concept that refers to the evolution of the internet from a collection of static websites to a more intelligent and interconnected network."
   },
   {
     "title": "What is the Metaverse?",
-    "description": "The metaverse is a term used to refer to a shared virtual space where people can interact with each other and with digital objects using avatars. The concept of the metaverse was first popularized in science fiction novels and has since been used to describe a potential future in which virtual reality technologies have advanced to the point where people can live and work in virtual environments on a daily basis. Some people see the metaverse as a natural evolution of the internet, while others view it as a separate, parallel world. The development of the metaverse is still in its early stages, but it is an exciting and potentially transformative technology."
+    "description": "The metaverse is a term used to describe a virtual world that is created by the convergence of the physical and digital realms."
+  },
+  {
+    "title": "Why You Should Learn to Code.",
+    "description": "Overall, learning to code is a smart and rewarding decision that can greatly benefit you personally and professionally."
   }
 ]

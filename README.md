@@ -1,5 +1,5 @@
 
-# Code Boot Camp Blog
+# Code Bootcamp Blog
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -7,7 +7,7 @@
 
 ## Description
 
-The Code Boot Camp Blog.
+The Code Boot Camp Blog
       
 ## Table of Contents
 1. [Install Instructions](#install-instructions)
@@ -47,5 +47,5 @@ There are currently no tests.
 
 If you have any questions, contact the author:  
 
-GitHub  
+GitHub 
 Email 

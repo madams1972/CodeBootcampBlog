@@ -3,9 +3,9 @@
     {{#if userName.name}}
     <h2>Welcome, {{userName.name}}!</h2>
     {{else}}
-    <h2>Please Login or Sign Up</h2>
+    <h2>Please Sign Up or Login to begin reading and writing post.</h2>
     {{/if}}
-    <p>Welcome to Code Boot Camp Blog where anyone can post a story.</p>
+    <p>Welcome to the Code Bootcamp Blog. You can read and write post. Login or sign up.</p>
     <a href="/api/post/create">
       <button class="btn btn-md btn-dark" id="btn-create-post">Create Post</button>
     </a>
@@ -34,6 +34,6 @@
   </div>
   {{else}}
   <div>
-    <p>Welcome to Code Bootcamp Blog. Start writing and don't forget to submit your post. You can edit it if you need to.</p>
+    <p>Share your thoughts with the Code Bootcamp Blog Community</p>
   </div>
 {{/if}}
