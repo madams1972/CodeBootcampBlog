@@ -33,7 +33,7 @@ This application is licensed under MIT License.
     
 
 GitHub Repo https://github.com/madams1972/CodeBootcampBlog
-video of the app in action:
+video of the app in action:https://vimeo.com/779992306
 
 
 
