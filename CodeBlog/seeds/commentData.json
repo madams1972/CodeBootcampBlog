@@ -1,0 +1,23 @@
+[
+	{
+		"content" : "Learning to code seems really awesome",
+		"created_at" : "2022-12-09 16:59:56",
+		"updated_at" : "2022-12-09 16:59:56",
+		"user_id" : 3,
+		"post_id" : 1
+	},
+	{
+		"content" : "Web 3.0 sounds like the future for sure!!.",
+		"created_at" : "2022-12-09 17:00:44",
+		"updated_at" : "2022-12-09 17:00:44",
+		"user_id" : 2,
+		"post_id" : 2
+	},
+	{
+		"content" : "Where can I learn more about the Metaverse?",
+		"created_at" : "2022-12-09 17:00:44",
+		"updated_at" : "2022-12-09 17:00:44",
+		"user_id" : 1,
+		"post_id" : 3
+	}
+]
