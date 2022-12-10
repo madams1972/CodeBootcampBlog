@@ -1,5 +1,5 @@
 
-# Code Bootcamp Blog
+# Code Boot Camp Blog
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -7,7 +7,7 @@
 
 ## Description
 
-The Code Bootcamp Blog. 
+The Code Boot Camp Blog.
       
 ## Table of Contents
 1. [Install Instructions](#install-instructions)
@@ -19,14 +19,14 @@ The Code Bootcamp Blog.
 
 ## Install Instructions
 
-Navigate to our Heroku installation:
+Navigate to 
   
 ## Usage Instructions
 
 View global posts on the home page. Login or signup to gain the ability to leave comments. Once logged in, navigate to the dashboard to view your posts, or create, update and delete posts.
 
 ## Images
-
+<img src=".\14-MVC\Assets\screenshot.JPG"></img>
 
 ## License
   
@@ -47,5 +47,5 @@ There are currently no tests.
 
 If you have any questions, contact the author:  
 
-GitHub 
-Email
+GitHub  
+Email 
